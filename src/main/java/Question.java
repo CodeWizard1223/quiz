@@ -3,10 +3,6 @@ import java.util.List;
 import java.util.Set;
 
 public class Question {
-    public enum QuestionType {
-        SINGLE_CHOICE,
-        MULTIPLE_CHOICE;
-    }
 
     private String question;
     private QuestionType questionType;

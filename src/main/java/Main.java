@@ -17,7 +17,7 @@ public class Main {
         // Initialize biology quiz
         List<Question> biologyQuestions = new ArrayList<>();
         biologyQuestions.add(new Question("Which of the following are parts of the human brain?",
-                Question.QuestionType.MULTIPLE_CHOICE, List.of(
+                QuestionType.MULTIPLE_CHOICE, List.of(
                 new Answer("Cerebrum", true),
                 new Answer("Cerebellum", true),
                 new Answer("Medulla oblongata", true),
@@ -25,7 +25,7 @@ public class Main {
         )));
 
         biologyQuestions.add(new Question("Which of the following organs is known as the body's second brain?",
-                Question.QuestionType.SINGLE_CHOICE, List.of(
+                QuestionType.SINGLE_CHOICE, List.of(
                 new Answer("Heart", false),
                 new Answer("Gut", true),
                 new Answer("Liver", true),
@@ -33,7 +33,7 @@ public class Main {
         )));
 
         biologyQuestions.add(new Question("Which of the following bones are found in the human arm?",
-                Question.QuestionType.MULTIPLE_CHOICE, List.of(
+                QuestionType.MULTIPLE_CHOICE, List.of(
                 new Answer("Humerus", true),
                 new Answer("Radius", true),
                 new Answer("Femur", false),
@@ -45,7 +45,7 @@ public class Main {
         // Initialize geography quiz
         List<Question> geographyQuestions = new ArrayList<>();
         geographyQuestions.add(new Question("Which countries are known for having the most pyramids?",
-                Question.QuestionType.MULTIPLE_CHOICE, List.of(
+                QuestionType.MULTIPLE_CHOICE, List.of(
                 new Answer("Egypt", true),
                 new Answer("Sudan", true),
                 new Answer("Mexico", false),
@@ -53,7 +53,7 @@ public class Main {
         )));
 
         geographyQuestions.add(new Question("Which country has a unicorn as a national symbol?",
-                Question.QuestionType.SINGLE_CHOICE, List.of(
+                QuestionType.SINGLE_CHOICE, List.of(
                 new Answer("Scotland", true),
                 new Answer("China", false),
                 new Answer("India", false),
@@ -61,7 +61,7 @@ public class Main {
         )));
 
         geographyQuestions.add(new Question("Which of the following are considered part of the Seven Wonders of the World?",
-                Question.QuestionType.MULTIPLE_CHOICE, List.of(
+                QuestionType.MULTIPLE_CHOICE, List.of(
                 new Answer("Great Wall of China", true),
                 new Answer("Machu Picchu", true),
                 new Answer("Stonehenge", false),
