@@ -3,16 +3,6 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("""
-                Welcome to the Quiz game!
-                You can choose between biology quiz (select '1'),
-                geography quiz (select '2') or exit (select '0').
-                Each quiz has 3 questions with 4 options (a - d).
-                Choose one or multiple options with keys a, b, c, d.
-                Don't forget to put space between your answers (example: 'a b c').
-                If the particular quiz has finished, you'll have a choice to exit the game,
-                or continue to the other quiz.
-                Have fun and good luck.""");
 
         // Initialize biology quiz
         List<Question> biologyQuestions = new ArrayList<>();
